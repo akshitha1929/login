@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eb0587;
+}
+
+.login-container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    background: linear-gradient(to bottom, white 60%, #fb1497);
+    transition: background-image 0.3s ease;
+}
+
+.login-container:hover {
+  background-image: linear-gradient(to top, white 50%, #fb1497);
+}
+
+.image {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.girl-image img {
+    max-width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-group.inactive {
+    opacity: 0.7;
+    transform: translateY(-5px);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #b5d5f7;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    opacity: 0.8;
+}
+button:active{
+    opacity:0.4;
+}
